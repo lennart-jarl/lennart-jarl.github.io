@@ -94,6 +94,14 @@ a {
 
 }
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
 #madsand{
 	background-image: url("img/madsand.jpg");
 	min-height: 400px;
