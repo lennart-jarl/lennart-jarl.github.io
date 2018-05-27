@@ -14,32 +14,20 @@
 }
 
 #menutitle{
-	color: #6D6D6D;
+	color: #4E4E4E;
 	float:left;
 	padding-left: 16px;
 }
 
 .menuitem{
-	color: #6D6D6D;
+	color: #4E4E4E;
 	float:left;
 	padding-left: 16px;
 }
 
-#contactsection{
-	text-align: center;
-	padding:10px;
-}
-
-.contactitem{
-	height: 24px;
-	width: auto;
-	padding:16px;
-	opacity: 0.7;
-}
-
 #top {
 	background-image: url("img/korea.jpg");
-	background-position: right;
+	background-position: center;
     min-height: 100%;
     -webkit-justify-content: center;
     display: -webkit-flex; /* Safari */
@@ -85,7 +73,7 @@ body {
 }
 
 a {
-	color:black;
+	color: black;
 	font-weight: 600;
 	text-decoration: none;
 }
@@ -96,17 +84,29 @@ h3{
 
 #about{
 	text-align: left;
-	padding:10px;
+	padding:20px;
 }
 
 .project{
 	text-align: left;
-	padding:10px;
+	padding:20px;
+}
+
+#contactsection{
+	text-align: center;
+	padding:20px;
+}
+
+.contactitem{
+	height: 24px;
+	width: auto;
+	padding:16px;
+	opacity: 0.7;
 }
 
 .parallax {
   position: relative;
-  opacity: 0.8;
+  opacity: 0.85;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,11 +121,22 @@ h3{
     }
 }
 
+#mytrain{
+	background-image: url("img/mytrain.png");
+	min-height: 400px;
+	background-position: center;
+}
 
 #madsand{
 	background-image: url("img/madsand.jpg");
 	min-height: 400px;
 	background-position: center;
+}
+
+#snickers{
+	background-image: url("img/snickers.png");
+	min-height: 400px;
+	background-position: right;
 }
 
 #otherroom{
